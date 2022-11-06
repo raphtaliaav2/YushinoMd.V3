@@ -39,7 +39,7 @@ const readMore = more.repeat(4001)
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ NO OWNER ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.owner = [
-['62881025056559', 'NPC•Bot', true],
+['62881025056559','karyl', true],
 ['6288212912038', 'ciel', true]
 ]
 global.mods = []
@@ -55,7 +55,7 @@ global.nomorwa = '0'
 
 global.readMore = readMore
 global.author = 'Created By ciel'
-global.namebot = 'NPC•Bot'
+global.namebot = 'karyl'
 global.wm = '© created by ciel'
 global.media = 'https://telegra.ph/file/5d45a3d1e12726d98c5e4.jpg'
 global.watermark = wm
@@ -63,14 +63,14 @@ global.wm2 = '𝒀𝒖𝒔𝒉𝒊𝒏𝒐 𝑴𝒅 '
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.packname = wm
 global.bottime = `T I M E : ${wktuwib}`
-global.titlebot = `NPC•Bot`
-global.stickpack = 'NPC•Bot'
+global.titlebot = `karyl`
+global.stickpack = 'karyl'
 global.stickauth = `© ciel`
 global.week = `${week} ${date}`
 global.wibb = `${wktuwib}`
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ OWNER INFO ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.nameown1= 'ciel'
-global.nameown2 = 'NPC•Bot'
+global.nameown2 = 'karyl'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA LINK ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.Linkgc = 'Bentar'
 global.lynk = 'https://lynk.id/hyuuraofc'
