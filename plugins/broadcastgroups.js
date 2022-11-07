@@ -65,7 +65,7 @@ let handler = async (m, { conn,isOwner, isROwner, text }) => {
     let pesan = m.quoted && m.quoted.text ? m.quoted.text : text
     if(!pesan) throw 'teksnya?'
     m.reply(`Mengirim Broadcast Ke ${anu.length} Chat, Waktu Selesai ${anu.length * 0.5} detik`)
-    let bcbg = `${pickRandom(['https://telegra.ph/file/bca700eefeeed8f2cb054.jpg', 'https://telegra.ph/file/ec9831cc3b7001690d6dd.jpg','https://telegra.ph/file/177f7054ebddc6d1f8375.jpg','https://telegra.ph/file/90d4254ae53b4d268b2b9.jpg','https://telegra.ph/file/a6e4013afa98e283ee6a7.jpg','https://telegra.ph/file/2cf9cf86466d9fad58e52.jpg','https://telegra.ph/file/f62c45fb2e087187f065e.jpg','https://telegra.ph/file/fec157267ed3cf69021e1.jpg','https://telegra.ph/file/419672df2fb86a057cb26.jpg'])}`
+    let bcbg = `${pickRandom(['https://i.ibb.co/5Fm1GHk/85ab6ca3b9d0c84dfbe83c30c31e1620.jpg', 'https://i.ibb.co/qF3Mxsx/thumbnail.jpg','https://i.ibb.co/McVVYkD/902e95f8c07104201fbf578d9359f9f5.jpg','https://i.ibb.co/zGQXLpg/2d5f801edc2d9044a8cff79133f80f5c.jpg','https://i.ibb.co/Gkkv8xC/9a265b43ed443e88a8c8a0ff80a7365f.jpg','https://i.ibb.co/LpqCHjw/f10f327fa500f4f75523dea7452b7214.jpg','https://i.ibb.co/8s7vG4t/4db6021d1a597f483040f5916038129a.jpg','https://i.ibb.co/yWd0qbY/4d2d12933d380043be8d4e75ea0c60f0.jpg','https://i.ibb.co/L6mKHsJ/1645995698459.jpg'])}`
     for (let i of anu) {
   conn.send3ButtonImg(i, bcbg, `${global.namebot} Broadcast Group\n`,`
 ┏━ ❮❮ 𝙼𝙴𝚂𝚂𝙴𝙶𝙴 ❯❯
