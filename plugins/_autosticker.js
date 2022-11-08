@@ -23,7 +23,7 @@ let stiker = await sticker(null, global.API(`${pickRandom(stikerhuuu)}`), global
    
 }
 
-handler.customPrefix = /^(hu|huu|huuu|huuuu|huuuuu|ok|oke|ook|okee|okk|nice|nis)$/i
+handler.customPrefix = /^(hu|huu|huuu|huuuu|huuuuu|ok|oke|ook|okee|okk|nice|nis|p|bot)$/i
 handler.command = new RegExp
 
 export default handler
@@ -32,23 +32,14 @@ function pickRandom(list) {
   return list[Math.floor(list.length * Math.random())]
 }
 let stikerhuuu = [
- "https://telegra.ph/file/fa2bbea0f7de2575cf027.png",//patrick huu
- "https://telegra.ph/file/4a2db7bc9f3f9ecfc007d.png",//anime yntkts
- "https://telegra.ph/file/5f6079714851d9927697e.png",//windah bocil
+ "https://i.ibb.co/qF3Mxsx/thumbnail.jpg",//windah bocil
  "https://telegra.ph/file/d5100b4ce95a0012e88c1.png",//patrick bawa minum
- "https://telegra.ph/file/2ade25087c89f86587853.png",//pak polisi pap tt
- "https://telegra.ph/file/eb2b5e5fff569896c1639.png",//kucing1
- "https://telegra.ph/file/bd8a0e7ea01218531798b.png",//kacamata
- "https://telegra.ph/file/300610838ffa0e6576eb9.png",//patrick pembohong
- "https://telegra.ph/file/954afe562e58c144620ae.png",//spongebob FBI
- "https://telegra.ph/file/72026dcc46e4cb4b6f9ae.png",//mazowski monster inc
- "https://telegra.ph/file/aa9f1bea869e362e6f56e.png",//wkwk
- "https://telegra.ph/file/09bbff0da316ba21b4f8e.png",//kucing2
- "https://telegra.ph/file/2e0637d57e3cc1abcb4a0.png",//patrick anak setan
- "https://telegra.ph/file/d771ae015b5486859d03f.png",//mazowski 2
- "https://telegra.ph/file/9c7606f571c05b4d0c941.png",//hengker
- "https://telegra.ph/file/84fd937257bcd614d6c9e.png",//anjing
- "https://telegra.ph/file/b8ba6989c00c50df049d0.png",//bapak bapak lovee
- "https://telegra.ph/file/2f618fffab6ff7bea32ab.png",//abang saleh
- "https://telegra.ph/file/dfbf483c209a31f01b4e5.png"//hengker2
+ "https://i.ibb.co/8s7vG4t/4db6021d1a597f483040f5916038129a.jpg",//pak polisi pap tt
+ "https://i.ibb.co/yWd0qbY/4d2d12933d380043be8d4e75ea0c60f0.jpg",//kucing1
+ "https://i.ibb.co/5Fm1GHk/85ab6ca3b9d0c84dfbe83c30c31e1620.jpg",//mazowski monster inc
+ "https://i.ibb.co/5Fm1GHk/85ab6ca3b9d0c84dfbe83c30c31e1620.jpg",//wkwk
+ "https://i.ibb.co/McVVYkD/902e95f8c07104201fbf578d9359f9f5.jpg",//kucing2
+ "https://i.ibb.co/LpqCHjw/f10f327fa500f4f75523dea7452b7214.jpg",//hengker
+ "https://i.ibb.co/zGQXLpg/2d5f801edc2d9044a8cff79133f80f5c.jpg",//bapak bapak lovee
+ "https://i.ibb.co/Gkkv8xC/9a265b43ed443e88a8c8a0ff80a7365f.jpg"//hengker2
 ]
