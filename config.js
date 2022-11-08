@@ -47,7 +47,7 @@ global.prems = []
 global.nomorbot = '62881025056559'
 global.nomorown = '6288212912038'
 global.nomorown1 = '6288212912038'
-global.nomorown2 = '6288212912038'
+global.nomorown2 = '6281361281833'
 global.nomorwa = '0'
 
 
@@ -84,9 +84,8 @@ global.sdc = '-' //discord
 global.snh = 'https://youtube.com/channel/UCCatgbpeTQ0-xuqRc_hYuQA'
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ DONASI ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.pdana = '0882 1291 2038'
-global.povo = '-'
-global.pgopay = '0882 1291 2038'
+global.pdana = '0813 6128 1833'
+global.pgopay = '0813 6128 1833'
 global.plinkaja = '-' //link aja
 global.ppulsa = '0882 1291 2038'
 global.ppulsa2 = '088212912038'
