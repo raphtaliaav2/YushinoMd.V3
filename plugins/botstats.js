@@ -50,10 +50,10 @@ conn.sendButtonDoc(m.chat, '▷ʙᴏᴛ sᴛᴀᴛᴜs◁', sts, 'Owner', '.owne
     mediaUrl: 'https//wa.me/6281361281833?text=Hᴀʟᴏ+ɢᴀɴᴛᴇɴɢᴋᴜ',
     mediaType: 2, 
     description: 'wa.me/6281361281833?text=Hᴀʟᴏ+ɢᴀɴᴛᴇɴɢᴋᴜ',
-    title: "Iɴɪ Fᴀᴄᴇʙᴏᴏᴋ Gᴡ!",
+    title: "Join group WhatsApp!",
     body: wm,
     thumbnail: fs.readFileSync('./thumbnail.jpg'),
-    sourceUrl: 'https://facebook.com/sadtime098'
+    sourceUrl: 'https://chat.whatsapp.com/Jo5K5cubuvJJgtJHBRW85G'
      }}
   })
 
