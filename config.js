@@ -81,15 +81,15 @@ global.sig = 'https://instagram.com/_b4c00t4an_s3l3b'
 global.sgh = 'https://github.com/hyuura-official' //github
 global.sgc = 'https://chat.whatsapp.com/Jo5K5cubuvJJgtJHBRW85G' //group whatsapp
 global.sdc = '-' //discord
-global.snh = 'https://youtube.com/channel/UCjoPsysjCn2Qa0dRalUb2mg'
+global.snh = 'https://youtube.com/channel/UCCatgbpeTQ0-xuqRc_hYuQA'
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ DONASI ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.pdana = '0813 6128 1833'
+global.pdana = '0882 1291 2038'
 global.povo = '-'
-global.pgopay = '0813 6128 1833'
+global.pgopay = '0882 1291 2038'
 global.plinkaja = '-' //link aja
-global.ppulsa = '0813 6128 1833'
-global.ppulsa2 = '083838186170'
+global.ppulsa = '0882 1291 2038'
+global.ppulsa2 = '088212912038'
 global.psaweria = 'https://saweria.co/hyuura'
 
 
