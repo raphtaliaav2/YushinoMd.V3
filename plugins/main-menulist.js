@@ -327,7 +327,7 @@ let con = `┏━━━━━━━━━━━━━━━━━━━┓
 ┣╌ ⟪ *Yᴏᴜʀ Iɴғᴏ* ⟫
 ┃▷ *Nᴀᴍᴇ* : ${usrs.registered ? usrs.name : conn.getName(m.sender)}
 ┃▷ *Sᴛᴀᴛᴜs* : ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
-┃▷ *Pʀᴇᴍɪᴜᴍ* : ${usrs.premiumTime > 1 ? '✔ Ya': '✖️ Tidak'}
+┃▷ *Pʀᴇᴍɪᴜᴍ* : ${usrs.premiumTime > 1 ? '✔ Ya': '✘ Tidak'}
 ┃▷ *Rᴏʟᴇ* : ${usrs.role}
 ┃▷ *Lɪᴍɪᴛ* : ${usrs.limit}
 ┃▷ *Lᴇᴠᴇʟ* : ${usrs.limit}
@@ -336,13 +336,13 @@ let con = `┏━━━━━━━━━━━━━━━━━━━┓
 ╭╴╴╼╳
 │◇ Aʟʟ Fɪᴛᴜʀ: ${totalf}
 ╰╸╳`
-let hariRayaramadan = new Date('April 21, 2023 23:59:59') 
-     let sekarangg = new Date().getTime() 
-     let lebih = hariRayaramadan - sekarangg 
-     let harii = Math.floor( lebih / (1000 * 60 * 60 * 24)); 
-     let jamm = Math.floor( lebih % (1000 * 60 * 60 * 24) / (1000 * 60 * 60)) 
-     let menitt = Math.floor( lebih % (1000 * 60 * 60) / (1000 * 60)) 
-     let detikk = Math.floor( lebih % (1000 * 60) / 1000) 
+let hariRayaramadan = new Date('April 21, 2023 23:59:59') 
+     let sekarangg = new Date().getTime() 
+     let lebih = hariRayaramadan - sekarangg 
+     let harii = Math.floor( lebih / (1000 * 60 * 60 * 24)); 
+     let jamm = Math.floor( lebih % (1000 * 60 * 60 * 24) / (1000 * 60 * 60)) 
+     let menitt = Math.floor( lebih % (1000 * 60 * 60) / (1000 * 60)) 
+     let detikk = Math.floor( lebih % (1000 * 60) / 1000) 
 let tett = `▢ ▱▱▱ ▣► Dᴀᴛᴇ ◄▣ ▱▱▱ ▢ 
 ▯▷ *Uᴘᴛɪᴍᴇ* : ${mpt}
 ▯▷ *Tɪᴍᴇ* :  ${moment.tz('Asia/Jakarta').format('HH')} H${moment.tz('Asia/Jakarta').format('mm')} M${moment.tz('Asia/Jakarta').format('ss')} S
@@ -478,19 +478,19 @@ let snd = `${pickRandom([mangkane25,mangkane26,mangkane27,mangkane28,mangkane29,
 let audio = `https://raw.githubusercontent.com/aisyah-rest/mangkane/main/Mangkanenya/${snd}.mp3`
 await conn.sendFile(m.chat, audio, 'error.mp3', null, m, true, {
 type: 'audioMessage', 
-ptt: false, seconds: 0,contextInfo: {
-         externalAdReply: { showAdAttribution: true,
+ptt: false, seconds: 0,contextInfo: {
+         externalAdReply: { showAdAttribution: true,
  mediaUrl: sgc,
     mediaType: 2, 
     description: sgc,
     title: "Kᴛɪᴋ .sᴏᴜɴᴅᴍᴇɴᴜ ᴜɴᴛᴋ ʏɢ ʟᴀɪɴ",
     body: wm,
-    thumbnail: await (await fetch('https://telegra.ph/file/c72133b197a68d3ea514d.jpg')).buffer(),
+    thumbnail: await (await fetch('https://telegra.ph/file/c72133b197a68d3ea514d.jpg')).buffer(),
     sourceUrl: sgc
- 	  /*   sourceUrl: sig,
-           title: '◄⟬ ●━━━ ⧏ ⧎ ⧐ ━━━● ⟭►',  
-            body: 'Now Playing...', 
-           thumbnail: await (await fetch('https://telegra.ph/file/c72133b197a68d3ea514d.jpg')).buffer()*/
+ 	  /*   sourceUrl: sig,
+           title: '◄⟬ ●━━━ ⧏ ⧎ ⧐ ━━━● ⟭►',  
+            body: 'Now Playing...', 
+           thumbnail: await (await fetch('https://telegra.ph/file/c72133b197a68d3ea514d.jpg')).buffer()*/
 }
      }
     })
@@ -504,7 +504,7 @@ let almenu = `┏┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈╼
 ┣╌ ⟪ *Yᴏᴜʀ Iɴғᴏ* ⟫
 ┃▷ *Nᴀᴍᴇ* : ${usrs.registered ? usrs.name : conn.getName(m.sender)}
 ┃▷ *Sᴛᴀᴛᴜs* : ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
-┃▷ *Pʀᴇᴍɪᴜᴍ* : ${usrs.premiumTime > 1 ? '✔ Ya': '✖️' Tidak}
+┃▷ *Pʀᴇᴍɪᴜᴍ* : ${usrs.premiumTime > 1 ? '✔ Ya': '✘ Tidak'}
 ┃▷ *Rᴏʟᴇ* : ${usrs.role}
 ┃▷ *Lɪᴍɪᴛ* : ${usrs.limit}
 ┃▷ *Lᴇᴠᴇʟ* : ${usrs.limit}
@@ -533,7 +533,7 @@ let td = `${pickRandom([d1,d2,d3,d4,d5])}`
 let ᴛᴇs = `Pᴏᴡᴇʀ Bʏ ⬝ @${nomorwa.split`@`[0]}\nCʀᴇᴀᴛᴏʀ Bᴏᴛ ⬝ @${nomorown1.split`@`[0]}\n⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 let thummb = fs.readFileSync('./thumbnail.jpg')
 
-conn.send2ButtonDoc(m.chat, almenu, readMore + text + `${ᴛᴇs}` + readMore, 'ᴍᴀᴋᴀsɪʜ', '.sewa', 'Oᴡɴᴇʀ', '.owner', m, { contextInfo: { forwardingScore: fsizedoc, externalAdReply: { body: 'Tes', containsAutoReply: true, mediaType: 1, mediaUrl: hwaifu.getRandom(),  renderLargerThumbnail: true, showAdAttribution: true, sourceId: 'Tes', sourceType: 'PDF', previewType: 'PDF', sourceUrl: sgc, thumbnail: fs.readFileSync('./thumbnail.jpg'), thumbnailUrl: sgc, title: 'Jᴏɪɴ Mʏ Gᴄ Oғғɪᴄɪᴀʟ'}}})
+conn.send2ButtonDoc(m.chat, almenu, readMore + text + `${ᴛᴇs}` + readMore, 'SᴇᴡᴀBᴏᴛ', '.sewa', 'Oᴡɴᴇʀ', '.owner', m, { contextInfo: { forwardingScore: fsizedoc, externalAdReply: { body: 'Tes', containsAutoReply: true, mediaType: 1, mediaUrl: hwaifu.getRandom(),  renderLargerThumbnail: true, showAdAttribution: true, sourceId: 'Tes', sourceType: 'PDF', previewType: 'PDF', sourceUrl: sgc, thumbnail: fs.readFileSync('./thumbnail.jpg'), thumbnailUrl: sgc, title: 'Jᴏɪɴ Mʏ Gᴄ Oғғɪᴄɪᴀʟ'}}})
     
 //------------------- BUTTON VID
 /*conn.sendButton(m.chat, text, wm, 'https://youtu.be/3ONnszQtwz0', [['Ping', '.speed'],['Owner', '.owner'],['Donasi', '.donasi']],ftoko, { gifPlayback: true, contextInfo: { externalAdReply: {title: namebot, body: bottime, sourceUrl: sig, thumbnail: fs.readFileSync('./thumbnail.jpg') }}})*/
