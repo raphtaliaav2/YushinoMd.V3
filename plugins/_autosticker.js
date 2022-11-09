@@ -23,7 +23,7 @@ let stiker = await sticker(null, global.API(`${pickRandom(stikerhuuu)}`), global
    
 }
 
-handler.customPrefix = /^(hu|huu|huuu|huuuu|huuuuu|ok|oke|ook|okee|okk|nice|nis|p|bot)$/i
+handler.customPrefix = /^(hu|huu|kntl|anj|mmk|halo|hai|hallo|haloo|ohayo|ajg|kamu nanya|kamu nanya?|huuu|huuuu|huuuuu|ok|oke|ook|okee|okk|nice|nis|p|bot)$/i
 handler.command = new RegExp
 
 export default handler
