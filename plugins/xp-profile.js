@@ -18,7 +18,7 @@ let handler = async (m, { conn }) => {
 🔗 • *Link:* https://wa.me/${who.split`@`[0]}
 🎨 • *Age:* ${registered ? age : ''}
 ${readMore}
-🌟 • *Premium:* ${premium ? "✅" :"❌"}
+🌟 • *Premium:* ${premium ? "✅" :"✅Ya"}
 ⏰ • *PremiumTime:* 
 ${clockString(user.premiumTime)}
 📑 • *Registered:* ${registered ? '✅': '❌'}
