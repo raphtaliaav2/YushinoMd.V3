@@ -327,7 +327,7 @@ let con = `┏━━━━━━━━━━━━━━━━━━━┓
 ┣╌ ⟪ *Yᴏᴜʀ Iɴғᴏ* ⟫
 ┃▷ *Nᴀᴍᴇ* : ${usrs.registered ? usrs.name : conn.getName(m.sender)}
 ┃▷ *Sᴛᴀᴛᴜs* : ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
-┃▷ *Pʀᴇᴍɪᴜᴍ* : ${usrs.premiumTime > 1 ? '✔ Ya': '✔ Ya'}
+┃▷ *Pʀᴇᴍɪᴜᴍ* : ${usrs.premiumTime > 1 ? '✔ Ya': '✖️ Tidak'}
 ┃▷ *Rᴏʟᴇ* : ${usrs.role}
 ┃▷ *Lɪᴍɪᴛ* : ${usrs.limit}
 ┃▷ *Lᴇᴠᴇʟ* : ${usrs.limit}
@@ -504,7 +504,7 @@ let almenu = `┏┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈╼
 ┣╌ ⟪ *Yᴏᴜʀ Iɴғᴏ* ⟫
 ┃▷ *Nᴀᴍᴇ* : ${usrs.registered ? usrs.name : conn.getName(m.sender)}
 ┃▷ *Sᴛᴀᴛᴜs* : ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
-┃▷ *Pʀᴇᴍɪᴜᴍ* : ${usrs.premiumTime > 1 ? '✔ Ya': '✔ Ya'}
+┃▷ *Pʀᴇᴍɪᴜᴍ* : ${usrs.premiumTime > 1 ? '✔ Ya': '✖️' Tidak}
 ┃▷ *Rᴏʟᴇ* : ${usrs.role}
 ┃▷ *Lɪᴍɪᴛ* : ${usrs.limit}
 ┃▷ *Lᴇᴠᴇʟ* : ${usrs.limit}
