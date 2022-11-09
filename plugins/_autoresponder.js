@@ -48,7 +48,7 @@ let cintakamuh = cinmu[Math.floor(Math.random() * cinmu.length)]
           key: m.key,
         }})
    setTimeout(() => {
-        conn.reply(m.chat, `Aku juga sayang kamu ${cintakamuh}`, m)
+        conn.reply(m.chat, `Aku juga cinta kamu ${cintakamuh}`, m)
     }, 1000)
     }
     
