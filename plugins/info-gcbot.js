@@ -3,8 +3,8 @@ import fetch from 'node-fetch'
  let handler = async(m, { conn }) => { 
 
          let pp = fs.readFileSync('./thumbnail.jpg')
-         let gc1 = 'https://chat.whatsapp.com/Jo5K5cubuvJJgtJHBRW85G'
-         let caption = `*Mʏ Gᴄ Oғғɪᴄɪᴀʟ*`
+         let gc1 = 'https://chat.whatsapp.com/HyElVsHnVTyIzbsYDzHt16'
+         let caption = `*NPC•Figure✨*`
          await conn.sendButtonDoc(m.chat, caption, wm, 'Owner', '.owner', m, { contextInfo: { 
              externalAdReply: {
                sourceUrl: `${gc1}`,
