@@ -288,7 +288,7 @@ rows: [
 title: `⃟⟣⟚⟝ ⟡ Support Me ${namebot} ⟡ ⟞⟚⟢⃟`,
 rows: [
 {title: `⟐ Donasi ⟐`, rowId: ".donasi", description: "Donasi Agar Saya Semangat Untuk Update Bot:)"},
-{title: `⟐ Sewa Bot ⟐`, rowId: ".sewa", description: "Mau Nyewa?"},
+{title: `⟐ Makasih ⟐`, rowId: ".owner", description: "bujuk owner kalo mao bot gratis :v?"},
 {title: `⟐ Script ⟐`, rowId: ".sc", description: "Menampilkan Script Bot Ini"},
 ]}]
 let psan = 'bagaimana kabarmu?'
