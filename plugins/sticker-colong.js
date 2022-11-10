@@ -19,6 +19,6 @@ try {
 handler.help = ['colong']
 handler.tags = ['sticker']
 handler.command = /^colong$/i
-handler.owner = true
+
 
 export default handler
