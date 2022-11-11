@@ -118,7 +118,7 @@ let handler = async (m, { conn }) => {
   const caption = `
 🧑🏻‍🏫  ɴᴀᴍᴇ: ${conn.getName(m.sender)}
 ${Object.keys(inventory.others).map(v => user[v] && `➔ ${global.rpg.emoticon(v)} ${v}: ${user[v]}`).filter(v => v).join('\n')}${tools ? `
-➔ 🎖️ role: ${user.role}
+➔ 🎖️ rank: ${user.role}
 
 *───── ᴛᴏᴏʟs ─────*
 ${tools}` : ''}${dura ? `
