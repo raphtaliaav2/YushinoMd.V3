@@ -22,7 +22,7 @@ export function before(m) {
   Jangan tag dia!
   Dia sedang AFK ${reason ? 'dengan alasan ' + reason : 'tanpa alasan'}
   Selama ${(new Date - afkTime).toTimeString()}
-  `,wm,'Maaf Bang','Ya',m,fakeig)
+  `,wm,'ᴍᴀᴀᴘ','Ya',m,fakeig)
     }
     return true
 }
