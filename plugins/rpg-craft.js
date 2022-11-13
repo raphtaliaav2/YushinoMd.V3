@@ -24,6 +24,7 @@ let lgocraft = `
 ▧ Pickaxe ⛏️
 ▧ Sword ⚔️
 ▧ Fishingrod 🎣
+▧ Bow 🏹
 
 *❏ RECIPE*
 ▧ Pickaxe ⛏️
@@ -46,6 +47,11 @@ let lgocraft = `
 〉 1 Emerald
 〉 5 Diamond
 
+▧ Bow 🏹
+〉 29 Kayu
+〉 3 String
+〉 1 Iron
+
 ▧ Atm 💳
 〉3 Emerald
 〉6 Diamond
@@ -59,6 +65,7 @@ const sections = [
 	    {title: "PICKAXE ⛏️", rowId: ".craft pickaxe", description: "Crafting A Pickaxe"},
 	    {title: "FISHINGROD 🎣", rowId: ".craft fishingrod", description: "Crafting A Fishingrod"},
 	    {title: "ARMOR 🥼", rowId: ".craft armor", description: "Crafting A Armor"},
+	    {tetle: "BOW 🏹", rowld: ".craft bow", description: "Crafting A Bow"},
 	    {title: "ATM 💳", rowId: ".craft atm", description: "Crafting A Atm (but that's ilegal)"},
 	]
     },
@@ -116,8 +123,16 @@ const listMessage = {
             user.armordurability = 50
             m.reply("Sukses membuat 1 Armor 🥼")
             break
+          case 'bow':
+          if (user.bow > 0) return m.reply('Kamu susah Memiliki Ini')
+           if(user.wood < 29 || user.string < 3 || user.iron < 1) return m.reply(`Barang tidak cukup!\nUntuk membuat bow, Kamu memerlukan :\n29 Kayu🪵\n3 String🕸\n1 iron⛓`)
+           global.db.data.users[m.sender].wood -= 29
+           global.db.data.users[m.sender].string -= 3
+           global.db.data.users[m.sender].iron -= 1
+           m.reply("Sukses membuat 1 Bow 🏹")
+           break 
             case 'atm':
-          if (user.atm > 0) return m.reply('Kamu sudah memilik ini')
+          if (user.atm > 0) return m.reply('Kamu sudah memilik ini') 
             if(user.emerald < 3 || user.money < 10000 || user.diamond < 6) return m.reply(`Barang tidak cukup!\nUntuk membuat atm. Kamu memerlukan :\n10k Money 💹\n3 Emerald ❇️\n6 Diamond 💎`)
             global.db.data.users[m.sender].emerald -= 3
             global.db.data.users[m.sender].money -= 10000

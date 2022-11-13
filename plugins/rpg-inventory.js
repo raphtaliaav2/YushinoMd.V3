@@ -2,6 +2,7 @@ import daily from './rpg-daily.js'
 import weekly from './rpg-weekly.js'
 import monthly from './rpg-monthly.js'
 import adventure from './rpg-adventure.js'
+import fetch from 'node-fetch'
 
 const inventory = {
   others: {
@@ -108,6 +109,9 @@ const inventory = {
   }
 }
 let handler = async (m, { conn }) => {
+  let name = await conn.getName(m.sender)
+  let imgr = fla.getRandom()
+  let pp = imgr + 'Inventory'
   let user = global.db.data.users[m.sender]
   const tools = Object.keys(inventory.tools).map(v => user[v] && `${global.rpg.emoticon(v)} ${v}: ${typeof inventory.tools[v] === 'object' ? inventory.tools[v][user[v]?.toString()] : `Level(s) ${user[v]}`}`).filter(v => v).join('\n').trim()
   const items = Object.keys(inventory.items).map(v => user[v] && `${global.rpg.emoticon(v)} ${v}: ${user[v]}`).filter(v => v).join('\n').trim()
@@ -115,10 +119,9 @@ let handler = async (m, { conn }) => {
   const crates = Object.keys(inventory.crates).map(v => user[v] && `${global.rpg.emoticon(v)} ${v}: ${user[v]}`).filter(v => v).join('\n').trim()
   const pets = Object.keys(inventory.pets).map(v => user[v] && `${global.rpg.emoticon(v)} ${v}: ${user[v] >= inventory.pets[v] ? 'Max Levels' : `Level(s) ${user[v]}`}`).filter(v => v).join('\n').trim()
   const cooldowns = Object.entries(inventory.cooldowns).map(([cd, { name, time }]) => cd in user && `*• ${name}*: ${new Date() - user[cd] >= time ? '✅' : '❌'}`).filter(v => v).join('\n').trim()
-  const caption = `
-🧑🏻‍🏫  ɴᴀᴍᴇ: ${conn.getName(m.sender)}
+  const caption = `🧑🏻‍🏫  ɴᴀᴍᴇ: ${conn.getName(m.sender)}
 ${Object.keys(inventory.others).map(v => user[v] && `➔ ${global.rpg.emoticon(v)} ${v}: ${user[v]}`).filter(v => v).join('\n')}${tools ? `
-➔ 🎖️ rank: ${user.role}
+➔ 🎖️ role: ${user.role}
 
 *───── ᴛᴏᴏʟs ─────*
 ${tools}` : ''}${dura ? `
@@ -144,7 +147,26 @@ ${cooldowns}` : ''}
 *• dungeon:* ${user.lastdungeon == 0 ? '✅': '❌'}
 *• mining:* ${user.lastmining == 0 ? '✅': '❌'}
 `.trim()
-  conn.sendButton(m.chat, `*${htki} ɪɴᴠᴇɴᴛᴏʀʏ ${htka}*`, caption, null, [[`${user.health < 60 ? 'ʜᴇᴀʟ': 'ᴀᴅᴠᴇɴᴛᴜʀᴇ'}`,`${user.health < 60 ? '.heal': '.adventure'}`],['ᴘʀᴏғɪʟᴇ','.pp']],m)
+  conn.send2ButtonDoc(m.chat, `*${htki} ɪɴᴠᴇɴᴛᴏʀʏ ${htka}*`, caption, `${user.health < 60 ? 'ʜᴇᴀʟ': 'ᴀᴅᴠᴇɴᴛᴜʀᴇ'}`,`${user.health < 60 ? '.heal': '.adventure'}`, 'ᴘʀᴏғɪʟᴇ','.pp', fkontak, {
+			contextInfo: {
+				forwardingScore: fsizedoc,
+				externalAdReply: {
+                    body: '© 𝐒𝐤𝐲𝐁𝗼𝐭',
+    containsAutoReply: true,
+    mediaType: 1,
+    mediaUrl: hwaifu.getRandom(), 
+    renderLargerThumbnail: true,
+    showAdAttribution: true,
+    sourceId: '© 𝐒𝐤𝐲𝐁𝗼𝐭',
+    sourceType: 'PDF',
+    previewType: 'PDF',
+    sourceUrl: sgc,
+    thumbnail: await(await fetch(pp)).buffer(),
+    thumbnailUrl: sgc,
+    title: 'Hai Kak, ' + name
+				}
+			}
+}) 
 }
 handler.help = ['inventory', 'inv']
 handler.tags = ['rpg']
