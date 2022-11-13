@@ -65,7 +65,8 @@
         }
       }
     ],
-    "lastAccountSyncTimestamp": 1668318783
+    "lastAccountSyncTimestamp": 1668318783,
+    "myAppStateKeyId": "AAAAAM7R"
   },
   "keys": {
     "preKeys": {
@@ -299,16 +300,7 @@
           "data": "UiVsyByj5fC/uJag1sDuzGAb/NjaOKEF3m3iTk3o/S8="
         }
       },
-      "24": {
-        "private": {
-          "type": "Buffer",
-          "data": "6AwlPpFvQ0n8IcNoIVHeBl08tUOXbQlQQihehKLw/WI="
-        },
-        "public": {
-          "type": "Buffer",
-          "data": "KH25ghWIOGTaJ2ZSIvfpqMUAPUVjxSn7LWyFgna0anc="
-        }
-      },
+      "24": null,
       "25": {
         "private": {
           "type": "Buffer",
@@ -404,7 +396,78 @@
           }
         },
         "version": "v1"
+      },
+      "6289615260495.0": {
+        "_sessions": {
+          "BYKBbFayR8IoITjo2GZgaNPnCknbvyxyLLvRyU/ANKAG": {
+            "registrationId": 1832152311,
+            "currentRatchet": {
+              "ephemeralKeyPair": {
+                "pubKey": "BYJJ6qIeGtzXGeswcQHqFnGgiUmE1RiA+OW2pYD8YPxT",
+                "privKey": "IPxSD3tQ5OiEa5AmoY1ZadvzWOeRdyt1ykBERfWYCFs="
+              },
+              "lastRemoteEphemeralKey": "BUba2POq+BfvtS7UaiPPw6hhZBEKkgc2VQ7Ts2/59aBR",
+              "previousCounter": 0,
+              "rootKey": "vC2V/fZFEDMRMUZZkmAkWQmcvr2rqt8onk7rEVibWHk="
+            },
+            "indexInfo": {
+              "baseKey": "BYKBbFayR8IoITjo2GZgaNPnCknbvyxyLLvRyU/ANKAG",
+              "baseKeyType": 2,
+              "closed": -1,
+              "used": 1668318786734,
+              "created": 1668318786734,
+              "remoteIdentityKey": "BYGWUfCYGGelHcWHJcouATdizguFcKJ/QulyS9sQ5yk1"
+            },
+            "_chains": {
+              "BUba2POq+BfvtS7UaiPPw6hhZBEKkgc2VQ7Ts2/59aBR": {
+                "chainKey": {
+                  "counter": 0,
+                  "key": "nIAHMIc0Pq6/1MspWQqpVeKXuoFtWEv5J+ZazIEQ/vY="
+                },
+                "chainType": 2,
+                "messageKeys": {}
+              },
+              "BYJJ6qIeGtzXGeswcQHqFnGgiUmE1RiA+OW2pYD8YPxT": {
+                "chainKey": {
+                  "counter": -1,
+                  "key": "2Pb/qo+FnIt7xLAHFCXyDtnxEutsESNFoTvBejzGiwY="
+                },
+                "chainType": 1,
+                "messageKeys": {}
+              }
+            }
+          }
+        },
+        "version": "v1"
       }
+    },
+    "appStateSyncKeys": {
+      "AAAAAM7R": {
+        "keyData": "M0zBLwA6A6zxiqAr3l45FpwaBzucaB2x9JBweRp2ZWg=",
+        "fingerprint": {
+          "rawId": 1225388189,
+          "currentIndex": 1,
+          "deviceIndexes": [
+            0,
+            1
+          ]
+        },
+        "timestamp": "1668318785281"
+      }
+    },
+    "senderKeys": {
+      "120363023738480621@g.us::6289615260495::0": [
+        {
+          "senderKeyId": 935292828,
+          "senderChainKey": {
+            "iteration": 101,
+            "seed": "9erTs99v/1prd7qt6Vu+opvJBAk1tHQrhouHowWGX28="
+          },
+          "senderSigningKey": {
+            "public": "BVKi34uELAZi1v4uTCu5TCRJiFi9uoiKn/ZzL5dxZ4Yv"
+          }
+        }
+      ]
     }
   }
 }
