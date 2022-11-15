@@ -16,7 +16,7 @@ ${text}
 `.trim(), wm, 'NEXT', `.gimage ${text}`, m)
 }
 handler.help = ['image <query>', 'gimage <query>', 'googleimage <query>']
-handler.tags = ['internet']
+handler.tags = ['image']
 handler.command = /^(gimage|googleimage|image)$/i
 handler.limit = true
 
