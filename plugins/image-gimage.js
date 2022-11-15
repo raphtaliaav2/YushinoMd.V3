@@ -18,7 +18,12 @@ ${text}
 handler.help = ['image <query>', 'gimage <query>', 'googleimage <query>']
 handler.tags = ['image']
 handler.command = /^(gimage|googleimage|image)$/i
+
+
+handler.exp = 0
 handler.limit = true
+handler.register = false
+
 
 module.exports = handler
 
