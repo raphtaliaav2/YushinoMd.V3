@@ -689,19 +689,7 @@ export async function participantsUpdate({ id, participants, action }) {
                     } finally {
                         text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || 'unknow') :
                             (chat.sBye || this.bye || conn.bye || 'Bye @user')).replace(/@user/g, '@' + user.split`@`[0])
-                        let wel = API('males', '/welcome2', {
-                                profile: pp,
-                                username: await this.getName(user),
-                                background: 'https://telegra.ph/file/7f827ca45c833542777f0.jpg',
-                                groupname: await this.getName(id),
-                                membercount: groupMetadata.participants.length
-                            })
-                            let lea = API('males', '/goodbye2', {
-                                profile: pp,
-                                username: await this.getName(user),
-                                background: 'https://telegra.ph/file/7f827ca45c833542777f0.jpg',
-                                groupname: await this.getName(id),
-                                membercount: groupMetadata.participants.length
+                        
                             })
                             
  /* conn.sendButtonDoc(id, wm, text, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'Aʟᴅɪ X Aɪsʏᴀʜ', fkontak, { contextInfo: { externalAdReply: { showAdAttribution: true,
