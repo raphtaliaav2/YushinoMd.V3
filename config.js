@@ -79,7 +79,7 @@ global.lynk = 'https://lynk.id/hyuuraofc'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA SOSSIAL ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.sig = 'https://instagram.com/_b4c00t4an_s3l3b'
 global.sgh = 'https://github.com/hyuura-official' //github
-global.sgc = 'https://chat.whatsapp.com/HyElVsHnVTyIzbsYDzHt16' //group whatsapp
+global.sgc = 'https://chat.whatsapp.com/EklKM7VFqfUFnu99kyLIRI' //group whatsapp
 global.sdc = '-' //discord
 global.snh = 'https://youtube.com/channel/UCCatgbpeTQ0-xuqRc_hYuQA'
 
