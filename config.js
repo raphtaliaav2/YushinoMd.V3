@@ -54,9 +54,10 @@ global.nomorwa = '0'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ WM ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.readMore = readMore
-global.author = 'Created by ciel'
+global.author = 'owner: 6288212912038
+bot: 62881025056559'
 global.namebot = 'karyl'
-global.wm = '© created by ciel'
+global.wm = 'created by karyl [Bot WhatsApp]'
 global.media = 'https://i.ibb.co/qF3Mxsx/thumbnail.jpg'
 global.watermark = wm
 global.wm2 = '𝒀𝒖𝒔𝒉𝒊𝒏𝒐 𝑴𝒅 '
