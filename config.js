@@ -64,8 +64,8 @@ global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuw
 global.packname = wm
 global.bottime = `T I M E : ${wktuwib}`
 global.titlebot = `karyl`
-global.stickpack = 'karyl'
-global.stickauth = `© ciel`
+global.stickpack = 'created by karylbot'
+global.stickauth = `owner: 6288212912038`
 global.week = `${week} ${date}`
 global.wibb = `${wktuwib}`
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ OWNER INFO ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
