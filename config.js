@@ -54,8 +54,7 @@ global.nomorwa = '0'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ WM ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.readMore = readMore
-global.author = 'owner: 6288212912038
-bot: 62881025056559'
+global.author = 'owner: 6288212912038'
 global.namebot = 'karyl'
 global.wm = 'created by karyl [Bot WhatsApp]'
 global.media = 'https://i.ibb.co/qF3Mxsx/thumbnail.jpg'
