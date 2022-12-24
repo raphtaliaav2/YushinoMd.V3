@@ -39,38 +39,38 @@ const readMore = more.repeat(4001)
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ NO OWNER ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.owner = [
-['62881025056559','karyl', true],
-['6288212912038', 'ciel', true]
+['6288983719803','chika', true],
+['6283177947582', 'asura', true]
 ]
 global.mods = []
 global.prems = []
-global.nomorbot = '62881025056559'
-global.nomorown = '6288212912038'
-global.nomorown1 = '6288212912038'
-global.nomorown2 = '6281361281833'
+global.nomorbot = '6288983719803'
+global.nomorown = '6283177947582'
+global.nomorown1 = '6283177947582'
+global.nomorown2 = '6288983719803'
 global.nomorwa = '0'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ WM ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 
 global.readMore = readMore
-global.author = 'owner: 6288212912038'
-global.namebot = 'karyl'
-global.wm = 'created by karyl [Bot WhatsApp]'
+global.author = 'owner: 6283177947582'
+global.namebot = 'chika'
+global.wm = 'created by chika'
 global.media = 'https://i.ibb.co/qF3Mxsx/thumbnail.jpg'
 global.watermark = wm
 global.wm2 = '𝒀𝒖𝒔𝒉𝒊𝒏𝒐 𝑴𝒅 '
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.packname = wm
 global.bottime = `T I M E : ${wktuwib}`
-global.titlebot = `karyl`
-global.stickpack = 'created by karylbot'
-global.stickauth = `owner: 6288212912038`
+global.titlebot = `chika fujiwara`
+global.stickpack = 'created by chikabot'
+global.stickauth = `owner: 6283177947582`
 global.week = `${week} ${date}`
 global.wibb = `${wktuwib}`
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ OWNER INFO ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.nameown1= 'ciel'
-global.nameown2 = 'karyl'
+global.nameown1= 'asura'
+global.nameown2 = 'chika'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA LINK ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.Linkgc = 'Bentar'
 global.lynk = 'https://lynk.id/hyuuraofc'
@@ -79,7 +79,7 @@ global.lynk = 'https://lynk.id/hyuuraofc'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ MEDIA SOSSIAL ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.sig = 'https://instagram.com/_b4c00t4an_s3l3b'
 global.sgh = 'https://github.com/hyuura-official' //github
-global.sgc = 'https://chat.whatsapp.com/EklKM7VFqfUFnu99kyLIRI' //group whatsapp
+global.sgc = 'https://chat.whatsapp.com/EklKM7VFqfUnu99kyLIRI' //group whatsapp
 global.sdc = '-' //discord
 global.snh = 'https://youtube.com/channel/UCCatgbpeTQ0-xuqRc_hYuQA'
 
